@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS-02-Make Appointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>purwantonugro@gmail.com;</mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>014e8ac8-c511-4747-a504-475877244236</testSuiteGuid>
+   <testCaseLink>
+      <guid>95c362af-fc5b-4163-aab9-912f9690033b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario/TC-02-Make Appointment/01-Make Appoinment Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cf191a4a-4697-4e7d-98a4-b74d347a89eb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/katalonData/validAppointment</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>cf191a4a-4697-4e7d-98a4-b74d347a89eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>13df5205-3744-4cc0-82a8-bddb06a6b325</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cf191a4a-4697-4e7d-98a4-b74d347a89eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>92e5c84d-062e-456b-bcfe-e5f046d04f36</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cf191a4a-4697-4e7d-98a4-b74d347a89eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>8c918fa3-52a7-4f64-a748-c61d2571f68b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cf191a4a-4697-4e7d-98a4-b74d347a89eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>visit_date</value>
+         <variableId>0f8086f8-bec3-492a-a085-1632d641b8c8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cf191a4a-4697-4e7d-98a4-b74d347a89eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>59a19c10-2e92-4ebe-aeb1-d8b1f964c63d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cf191a4a-4697-4e7d-98a4-b74d347a89eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>healthcare_program</value>
+         <variableId>04355159-5666-4faf-9a27-b0d0f5c92dde</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cf191a4a-4697-4e7d-98a4-b74d347a89eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>hospital_readmission</value>
+         <variableId>605add8b-f1bb-4f9b-bfe7-20827bb6dce3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>70020825-8dc0-4f06-9e2d-b79f478af01c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario/TC-02-Make Appointment/02-Make Appoinment Failed</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

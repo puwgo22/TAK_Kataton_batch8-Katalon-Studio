@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Logout Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d349f0f-b6a8-4ef7-a7ec-a5e91e2b8a5a</testCaseGuid>
+</TestCaseEntity>
